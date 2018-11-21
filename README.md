@@ -1,5 +1,7 @@
 #SPACY
 
+Jérôme Godefroy & Ibrahim Assabbane
+
 ##Introduction
 
 le but ici est d'extraire les entités nommées à partir de plusieurs sources web. Le sujet de notre ontologie est l'Univers.
