@@ -15,3 +15,4 @@ Le traitement de chaque url est effectué en utilisant Spacy, sur le modèle Ang
 
 Nous filtrons les résultats afin d'avoir les entités attendues telles que la Terre ou la Lune,...
 
+La liste entities contient toutes les entités concernant l'univers, à partir des sources web. Il y a tout de même certains mots qui ne sont pas voulus.
