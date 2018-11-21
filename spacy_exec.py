@@ -22,10 +22,17 @@ def getUrl(filename):
 	return urls
 
 
+def intersection(lst1, lst2): 
+    lst3 = [value for value in lst1 if value in lst2] 
+    return lst3
+
+
 
 if __name__ == '__main__':
 
 	urls = getUrl("url.txt")
+	
+	entities = [[]]
 
 	for url in urls:
 		if url != "":
@@ -43,5 +50,9 @@ if __name__ == '__main__':
 
 			entity=[(X, X.ent_iob_, X.ent_type_) for X in doc if X.ent_iob_!='O' and (X.ent_type_=="LOC" or X.ent_type_=="ORG")]
 
-			print(entity)
+			#print(entity)
+
+			entities.append(entity)
+
+	print(entities)
 
